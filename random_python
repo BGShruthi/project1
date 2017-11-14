@@ -1,0 +1,10 @@
+import random
+
+for x in range(0,120,10): #range(start,stop,step) range(5) -> 0 - 4 
+    print(x,'\n')
+
+bins = [x for x in range(0,120,10)]
+print(bins)
+
+for x in range(5):
+    print(random.randrange(0,100,10))
